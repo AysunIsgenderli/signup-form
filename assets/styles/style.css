@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(174, 165, 165);
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.my {
+  margin: 25px 0;
+}
+
+.py {
+  padding: 8px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.container .header {
+  margin-top: 100px;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.container .header .image {
+  width: 45%;
+}
+.container .header .image img {
+  height: 350px;
+}
+.container .header .form {
+  width: 45%;
+}
+.container .header .form .checkbox {
+  display: flex;
+}
+.container .header .form .checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.container .header .form .name,
+.container .header .form .password {
+  border-bottom: 1px solid #000;
+}
+.container .header .form i,
+.container .header .form .checkbox input {
+  margin-right: 8px;
+}
+.container .header button {
+  padding: 10px 20px;
+  background: rgb(66, 116, 181);
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #fff;
+}
+.container footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container footer a {
+  color: #000;
+}
+.container footer .else {
+  display: flex;
+  align-items: center;
+}
+.container footer .else .social {
+  display: flex;
+  align-items: center;
+}
+.container footer .else .social .fb, .container footer .else .social .twitter, .container footer .else .social .google {
+  width: 34px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 14px;
+  border-radius: 5px;
+}
+.container footer .else .social .fb {
+  background-color: rgb(47, 47, 189);
+}
+.container footer .else .social .twitter {
+  background-color: rgb(42, 114, 185);
+}
+.container footer .else .social .google {
+  background-color: rgb(194, 34, 34);
+}/*# sourceMappingURL=style.css.map */
